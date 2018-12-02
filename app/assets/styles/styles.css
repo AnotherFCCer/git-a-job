@@ -1,0 +1,18 @@
+/* comment created for purposes of exercise in lecture 11 */
+
+$mainColor: blue;
+$linkColor: red;
+
+body {
+    background-color: $mainColor;
+    columns: 300px 3
+}
+
+.box {
+    li {
+        background-color: $mainColor;
+        color: $linkColor;
+        display: block;
+        padding: 10px
+    }
+}

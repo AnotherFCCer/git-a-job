@@ -1,0 +1,14 @@
+/* comment created for purposes of exercise in lecture 11 */
+
+body {
+    background-color: blue;
+    -webkit-columns: 300px 3;
+            columns: 300px 3
+}
+
+.box li {
+        background-color: blue;
+        color: red;
+        display: block;
+        padding: 10px
+    }
